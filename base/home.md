@@ -50,7 +50,7 @@ Compile vers: ASM -> Binaire (pour commencer) ; Binaire (quand le système fonct
 
 |              Nom               | Description              |
 | :----------------------------: | ------------------------ |
-|  [Object]("./objects/Object.md")  | Base de tous les objets  |
+|  [Object](./objects/Object.md)  | Base de tous les objets  |
 | [Integer](Integer.md) | Nombres entiers relatifs |
 |   [Float](Float.md)   | Nombres à virgule        |
 | [Boolean](Boolean.md) | booléens                 |
