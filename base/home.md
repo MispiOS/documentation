@@ -52,10 +52,10 @@ Compile vers: ASM -> Binaire (pour commencer) ; Binaire (quand le système fonct
 
 |               Nom                | Description              |
 | :------------------------------: | ------------------------ |
-|  [Object](?./objects/Object.md)  | Base de tous les objets  |
-| [Integer](?./objects/Integer.md) | Nombres entiers relatifs |
-|   [Float](?./objects/Float.md)   | Nombres à virgule        |
-| [Boolean](?./objects/Boolean.md) | booléens                 |
-|    [Char](?./objects/Char.md)    | Caractère                |
-|  [String](?./objects/String.md)  | Chaine de caractères     |
-|   [Array](?./objects/Array.md)   | Tableau d'objets         |
+|  [Object](./objects/Object.md)  | Base de tous les objets  |
+| [Integer](./objects/Integer.md) | Nombres entiers relatifs |
+|   [Float](./objects/Float.md)   | Nombres à virgule        |
+| [Boolean](./objects/Boolean.md) | booléens                 |
+|    [Char](./objects/Char.md)    | Caractère                |
+|  [String](./objects/String.md)  | Chaine de caractères     |
+|   [Array](./objects/Array.md)   | Tableau d'objets         |
