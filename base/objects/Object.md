@@ -7,15 +7,16 @@ Ce qui est ajouté dans `Object` est automatiquement ajouté à tous les autres 
 ### Attributs
 ---
 
-|     Nom     |    Type     | Description                |
-| :---------: | :---------: | :------------------------- |
-| ``pointer`` | ``Integer`` | adresse mémoire de l'objet |
+|     Nom     |            Type             | Description                |
+| :---------: | :-------------------------: | :------------------------- |
+| ``pointer`` | [``Integer``](./Integer.md) | adresse mémoire de l'objet |
+
 
 ### Fonctions
 ---
 
-|      Nom       |         Arguments         | Type renvoyé | Description                                                       |
-| :------------: | :-----------------------: | :----------: | ----------------------------------------------------------------- |
-| ``getPointer`` |           aucun           | ``Integer``  | Renvoie le pointer de l'objet                                     |
-| ``setPointer`` | ``pointer`` (``Integer``) |   ``void``   | Définie le pointer de l'objet                                     |
-|   ``equals``   |  ``objet`` (``Object``)   | ``Boolean``  | Renvoie si l'objet de référence et l'objet comparé sont les mêmes |
+|      Nom       |                 Arguments                 |        Type renvoyé         | Description                                                       |
+| :------------: | :---------------------------------------: | :-------------------------: | ----------------------------------------------------------------- |
+| ``getPointer`` |                   aucun                   | [``Integer``](./Integer.md) | Renvoie le pointer de l'objet                                     |
+| ``setPointer`` | ``pointer`` ([``Integer``](./Integer.md)) |          ``void``           | Définie le pointer de l'objet                                     |
+|   ``equals``   |   ``objet`` ([``Object``](./Object.md))   | [``Boolean``](./Boolean.md) | Renvoie si l'objet de référence et l'objet comparé sont les mêmes |
