@@ -1,7 +1,7 @@
 ### Description
 ---
 L'objet `Array` permet de représenter un tableau d'objet de même type.
-Cet objet est spéciale car il est utilisable sur tous les types d'objets.
+Cet objet est spécial car il est utilisable sur tous les types d'objets.
 
 ### Définition
 ---
