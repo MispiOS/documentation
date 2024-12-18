@@ -1,3 +1,5 @@
+# Boolean
+
 ### Description
 ---
 L'objet `Boolean` permet de représenter deux états: vrai ou faux.
