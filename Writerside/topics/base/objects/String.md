@@ -6,7 +6,8 @@
 
 ### Description
 ---
-L'objet [`String`](String.md) représente une chaîne de caractère. C'est un [`Array`](Array.md) de taille infixe de [`Char`](Char.md) (`Char[]`).
+L'objet (String.md) représente une chaîne de caractère. C'est un [`Array`](Array.md) de taille infixe de [`Char`](Char.md) (`Char[]`).
+Le mot clef `string` fait référence à cet objet.
 
 ### Fonctions
 ---

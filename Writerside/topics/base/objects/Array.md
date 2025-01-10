@@ -66,8 +66,8 @@ objectArray.pop();
 ---
 
 |     Nom     |         Arguments          |        Type renvoyé        | Description                                          |
-| :---------: | :------------------------: |:--------------------------:| ---------------------------------------------------- |
-|   ``add``   | `object` (Type de l'Array) |          ``void``          | Ajoute `object` à la fin de l'Array                  |
+|:-----------:| :------------------------: |:--------------------------:|------------------------------------------------------|
+|  ``push``   | `object` (Type de l'Array) |          ``void``          | Ajoute `object` à la fin de l'Array                  |
 |   ``pop``   |           aucun            |      Type de l'Array       | Supprime le dernier élément de l'Array et le renvoie |
 | ``getSize`` |           aucun            | [``Integer``](Integer.md) | Renvoie la taille de l'Array                         |
-|  `isFixed`  |           aucun            |  [`Boolean`](Boolean.md)   | Renvoie la valeur de `fixe`                          |
+|  `isFixed`  |           aucun            |  [`Boolean`](Boolean.md)   | Renvoie la valeur de `fixed`                         |
