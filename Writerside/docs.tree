@@ -21,6 +21,10 @@
             <toc-element topic="If-else.md"/>
             <toc-element topic="While.md"/>
         </toc-element>
+        <toc-element topic="Import.md"/>
+        <toc-element topic="Class.md">
+            <toc-element topic="Interface.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="mom.md">
 

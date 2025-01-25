@@ -14,7 +14,7 @@ Ce qui est ajouté dans `Object` est automatiquement ajouté à tous les autres 
 | ``pointer`` | [``Integer``](Integer.md) | adresse mémoire de l'objet |
 
 
-### Fonctions
+### Méthodes
 ---
 
 |      Nom       |                Arguments                |        Type renvoyé         | Description                                                       |

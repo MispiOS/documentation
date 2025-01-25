@@ -9,7 +9,7 @@
 L'objet (String.md) représente une chaîne de caractère. C'est un [`Array`](Array.md) de taille infixe de [`Char`](Char.md) (`Char[]`).
 Le mot clef `string` fait référence à cet objet.
 
-### Fonctions
+### Méthodes
 ---
 
 |        Nom         |               Arguments                |            Type renvoyé             | Description                                                                                                |
