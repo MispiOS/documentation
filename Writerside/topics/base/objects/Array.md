@@ -3,23 +3,29 @@
 ### Description
 ---
 L'objet `Array` permet de représenter un tableau d'objet de même type.
-Cet objet est spécial car il est utilisable sur tous les types d'objets.
+Cet objet est spécial, car il est utilisable sur tous les types d'objets.
 
 ### Définition
 ---
-On créé un `Array` de taille infixe de la façon suivante:
+On créé un `Array` de taille infixe de la façon suivante :
 ```base
 new Object[];
 ```
 
-On créé un `Array` de taille fixe de la façon suivante:
+On crée un `Array` de taille fixe de la façon suivante :
 ```base
 new Object[Integer]
 ```
 
+Ou en plaçant directement les objets dedans :
+```base
+Object[] objectArray = [o1, o2, o3, o4, ...];
+```
+
+
 Avec un [`Integer`](Integer.md) strictement positif.
 
-Le non respect de cette condition entraîne une erreur.
+Le non-respect de cette condition entraîne une erreur.
 
 ### Utilisation
 ___

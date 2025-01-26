@@ -20,11 +20,13 @@
         <toc-element topic="Conditions.md">
             <toc-element topic="If-else.md"/>
             <toc-element topic="While.md"/>
+            <toc-element topic="Switch.md"/>
         </toc-element>
         <toc-element topic="Import.md"/>
         <toc-element topic="Class.md">
             <toc-element topic="Interface.md"/>
         </toc-element>
+        <toc-element topic="Static.md"/>
     </toc-element>
     <toc-element topic="mom.md">
 
