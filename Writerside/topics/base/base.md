@@ -4,7 +4,7 @@
 ---
 Nom : Base
 
-Paradigmes : Orienté Objet
+Paradigmes : Fonctionnel et Orienté Objet
 
 Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonctionnera)
 ### Mots Clefs
@@ -24,6 +24,7 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |          `break`          | permet de sortir d'une boucle ou d'un switch                                                                          |
 |         `return`          | déclaration finale d'une fonction renvoyant une objet ou rien                                                         |
 |          `null`           | objet nul (sans existance)                                                                                            |
+|           `void`           | type de retour d'une fonction lorsqu'elle ne retourne rien                                                               |
 |         `(` & `)`         | ouverture et fermeture d'arguments, de conditions et de priorité                                                      |
 |         `{` & `}`         | ouverture et fermeture de bloc de code                                                                                |
 |            `=`            | assignation                                                                                                           |
@@ -33,7 +34,7 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |            `/`            | division                                                                                                              |
 |            `%`            | reste division euclidienne                                                                                            |
 |           `**`            | exposant                                                                                                              |
-|           `&&`            | et (conditonnel)                                                                                                      |
+|           `&&`            | et (conditionnel)                                                                                                     |
 | <code>&#124;&#124;</code> | ou (conditionnel)                                                                                                     |
 |            `!`            | non                                                                                                                   |
 |            `&`            | et (binaire)                                                                                                          |
@@ -80,10 +81,3 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |      [Char](Char.md)      | Caractère                |
 |    [String](String.md)    | Chaîne de caractères     |
 |     [Array](Array.md)     | Tableau d'objets         |
-
-
-### Exemple de code
-
-```base
-...
-```
