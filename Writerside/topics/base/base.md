@@ -51,7 +51,6 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |           `!<`            | non inférieur (conditionnel)                                                                                          |
 |           `!>`            | non supérieur (conditionnel)                                                                                          |
 |            `;`            | fin d'instruction                                                                                                     |
-|         `string`          | référence au type [`String`](String.md)                                                                               |
 |           `int`           | référence au type [`Integer`](Integer.md)                                                                             |
 |          `float`          | référence au type [`Float`](Float.md)                                                                                 |
 |          `bool`           | référence au type [`Boolean`](Boolean.md)                                                                             |
@@ -79,5 +78,11 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |     [Float](Float.md)     | Nombres à virgule        |
 |   [Boolean](Boolean.md)   | booléens                 |
 |      [Char](Char.md)      | Caractère                |
-|    [String](String.md)    | Chaîne de caractères     |
 |     [Array](Array.md)     | Tableau d'objets         |
+
+### Méthodes par défaut
+---
+
+| Expression                 | Description                           |
+|----------------------------|---------------------------------------|
+| `asm(char[] assemblyCode)` | Permet d'éxecuter du code assembleur |
