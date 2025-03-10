@@ -19,8 +19,8 @@ Ils se définissent comme des variables mais dans la base même de la classe ave
 
 ```base
 class Foo {
-    public string attribute1 = "Hello";
-    private int attribute2 = "World";
+    public char[] attribute1 = "Hello";
+    private int attribute2 = 2;
 }
 ```
 
@@ -31,8 +31,9 @@ Une classe peut avoir des fonctions propres à elle. On les appelle méthodes.
 Une méthode se défini par un mot d'accessibilité, un type de sorti, un nom et des arguments.
 
 ```base
-public string methodeA(Object arg1, Object arg2) {
+public int methodeA(Object arg1, Object arg2) {
     // TODO
+    return -1;
 }
 
 private void methodeB(Object arg1) {
@@ -107,8 +108,9 @@ La classe implémentant est une instance de l'interface.
 
 ```base
 class Foo implements IFirst, ISecond {
-    private String firstInterfaceMethod(Object o) {
+    private char firstInterfaceMethod(Object o) {
         // TODO
+        return 64
     }
     
     public void secondInterfaceMethod(Object o1, Object o2) {
@@ -129,7 +131,7 @@ Exemple :
 ```base
 class Foo {
     private Object myObj;
-    private string myStr;
+    private char[] myStr;
     
     public void myMethod(Object myObj) {
         this.myObj = myObj;
@@ -137,14 +139,6 @@ class Foo {
     }
 }
 ```
-
-### Static
-
-Les attributs et les méthodes peuvent être accessible de partout grâce au mot clef `static`.
-
-Celui-ci est positionné après le mot d'accessibilité.
-
-Cependant, si l'accessibilité est en privé, alors l'élément ne pourra être appellé que dans le la classe dont il provient.
 
 ### Autre
 

@@ -65,8 +65,6 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |         `extends`         | permet d'étendre une classe (à l'aide) d'une classe abstraite                                                         |
 |       `implements`        | permet d'implémenter à une classe une seconde classe                                                                  |
 |         `import`          | importe un fichier de code pour travailler avec                                                                       |
-|         `static`          | Rend une méthode ou un attribut accessible depuis partout selon sa visibilité                                         |
-
 
 ### Objets par défaut
 ---

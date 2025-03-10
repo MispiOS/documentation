@@ -28,7 +28,6 @@
         <toc-element topic="Class.md">
             <toc-element topic="Interface.md"/>
         </toc-element>
-        <toc-element topic="Static.md"/>
     </toc-element>
     <toc-element topic="mom.md">
 
