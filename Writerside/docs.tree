@@ -10,7 +10,6 @@
     <toc-element topic="base.md">
         <toc-element topic="Object.md">
             <toc-element topic="Array.md"/>
-            <toc-element topic="Boolean.md"/>
             <toc-element topic="Char.md"/>
             <toc-element topic="Float.md"/>
             <toc-element topic="Integer.md"/>

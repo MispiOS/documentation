@@ -15,7 +15,7 @@ class Foo {
 Les attributs sont des variables globales à une classe.
 Ceux-ci peuvent être publiques ou privés.
 
-Ils se définissent comme des variables mais dans la base même de la classe avec un mot d'accessibilité.
+Ils se définissent comme des variables, mais dans la base même de la classe avec un mot d'accessibilité.
 
 ```base
 class Foo {

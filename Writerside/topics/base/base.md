@@ -24,7 +24,7 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |          `break`          | permet de sortir d'une boucle ou d'un switch                                                                          |
 |         `return`          | déclaration finale d'une fonction renvoyant une objet ou rien                                                         |
 |          `null`           | objet nul (sans existance)                                                                                            |
-|           `void`           | type de retour d'une fonction lorsqu'elle ne retourne rien                                                               |
+|          `void`           | type de retour d'une fonction lorsqu'elle ne retourne rien                                                            |
 |         `(` & `)`         | ouverture et fermeture d'arguments, de conditions et de priorité                                                      |
 |         `{` & `}`         | ouverture et fermeture de bloc de code                                                                                |
 |            `=`            | assignation                                                                                                           |
@@ -53,7 +53,6 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |            `;`            | fin d'instruction                                                                                                     |
 |           `int`           | référence au type [`Integer`](Integer.md)                                                                             |
 |          `float`          | référence au type [`Float`](Float.md)                                                                                 |
-|          `bool`           | référence au type [`Boolean`](Boolean.md)                                                                             |
 |          `char`           | référence au type [`Char`](Char.md)                                                                                   |
 |           `//`            | début commentaire en ligne                                                                                            |
 |           `/*`            | début commentaire multi-lignes                                                                                        |
@@ -65,20 +64,25 @@ Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonc
 |         `extends`         | permet d'étendre une classe (à l'aide) d'une classe abstraite                                                         |
 |       `implements`        | permet d'implémenter à une classe une seconde classe                                                                  |
 |         `import`          | importe un fichier de code pour travailler avec                                                                       |
+|            `$`            | permet de récupérer le pointeur de l'objet ou l'objet du pointeur                                                     |
 
-### Objets par défaut
+### Types par défaut
 ---
 
-|            Nom            | Description              |
-|:-------------------------:|--------------------------|
-|    [Object](Object.md)    | Base de tous les objets  |
-|   [Integer](Integer.md)   | Nombres entiers relatifs |
-|     [Float](Float.md)     | Nombres à virgule        |
-|   [Boolean](Boolean.md)   | booléens                 |
-|      [Char](Char.md)      | Caractère                |
-|     [Array](Array.md)     | Tableau d'objets         |
+|      Nom       | Description              |
+|:--------------:|--------------------------|
+| [](Object.md)  | Base de tous les objets  |
+| [](Integer.md) | Nombres entiers relatifs |
+|  [](Float.md)  | Nombres à virgule        |
+|  [](Char.md)   | Caractère                |
 
-### Méthodes par défaut
+### Structures par défaut
+---
+|     Nom      | Description      |
+|:------------:|------------------|
+| [](Array.md) | Tableau d'objets |
+
+### Fonctions par défaut
 ---
 
 | Expression                 | Description                           |

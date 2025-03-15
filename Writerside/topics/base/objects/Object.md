@@ -9,16 +9,19 @@ Ce qui est ajouté dans `Object` est automatiquement ajouté à tous les autres 
 ### Attributs
 ---
 
-|     Nom     |           Type            | Description                |
-| :---------: |:-------------------------:| :------------------------- |
-| ``pointer`` | [``Integer``](Integer.md) | adresse mémoire de l'objet |
+| Nom | Type | Description |
+|:---:|:----:|:------------|
+|     |      |             |
 
 
 ### Méthodes
 ---
 
-|      Nom       |                Arguments                |        Type renvoyé         | Description                                                       |
-| :------------: |:---------------------------------------:|:---------------------------:| ----------------------------------------------------------------- |
-| ``getPointer`` |                  aucun                  |  [``Integer``](Integer.md)  | Renvoie le pointer de l'objet                                     |
-| ``setPointer`` | ``pointer`` ([``Integer``](Integer.md)) |          ``void``           | Définie le pointer de l'objet                                     |
-|   ``equals``   |       ``objet`` ([``Object``](#description))       | [``Boolean``](Boolean.md) | Renvoie si l'objet de référence et l'objet comparé sont les mêmes |
+|       Expression        |   Type renvoyé    | Description                                                       |
+|:-----------------------:|:-----------------:|-------------------------------------------------------------------|
+| `equals(Object object)` | [`Char`](Char.md) | Renvoie si l'objet de référence et l'objet comparé sont les mêmes |
+
+### Mémoire
+---
+Un objet en mémoire commence par un [](Integer.md) qui représente l'identifiant de la classe de l'Objet.
+L'identifiant est généré par le compilateur excepté pour les objets par défaut qui ont des identifiants arbitraires.

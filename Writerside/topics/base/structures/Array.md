@@ -30,7 +30,7 @@ Un `Array` de [`Char`](Char.md) peut se créer en mettant une suite de caractèr
 char[] myCharArray = "I am a char array";
 ```
 
-Sa taille est d'un de plus que le nombre de caractères dans les guillemets. En effet, dans le cas de la construction d'un `Array` de [`Char`](Char.md) par des guillemets, un caractère null (`0` ASCII) est ajouté à la fin du tableau.
+Sa taille est d'un de plus que le nombre de caractères dans les guillemets. En effet, dans le cas de la construction d'un `Array` de [`Char`](Char.md) par des guillemets.
 
 
 ### Utilisation
@@ -39,7 +39,7 @@ On pose `objectArray`, un `Array`.
 
 Pour `i` un [`Integer`](Integer.md) strictement positif et strictement inférieur à la taille de `objectArray`.
 
-Récupérer un objet à l'indice `i`:
+Récupérer un objet à l'indice `i` :
 ```base
 objectArray[i];
 ```
@@ -52,13 +52,19 @@ objectArray[i] = obj;
 ### Attributs
 ---
 
-|    Nom    |           Type            | Description                   |
-|:---------:|:-------------------------:| :---------------------------- |
-|  `size`   |  [`Integer`](Integer.md)  | taille du tableau             |
+|  Nom   |          Type           | Description       |
+|:------:|:-----------------------:|:------------------|
+| `size` | [`Integer`](Integer.md) | taille du tableau |
 
 ### Méthodes
 ---
 
-|     Nom     |         Arguments          |        Type renvoyé        | Description                                          |
-|:-----------:| :------------------------: |:--------------------------:|------------------------------------------------------|
-| ``getSize`` |           aucun            | [``Integer``](Integer.md) | Renvoie la taille de l'Array                         |
+|      Nom      |            Type renvoyé             | Description                                          |
+|:-------------:|:-----------------------------------:|------------------------------------------------------|
+| ``getSize()`` |      [``Integer``](Integer.md)      | Renvoie la taille de l'Array                         |
+
+
+### Mémoire
+---
+
+L'emplacement mémoire d'un `Array` commence par un [](Integer.md) décrivant la taille de l'`Array`, les éléments de l'`Array` se suivent directement après.
