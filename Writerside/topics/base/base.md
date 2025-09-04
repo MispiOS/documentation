@@ -1,90 +1,91 @@
 # Base
 
-### Identification
----
-Nom : Base
+### Présentation
 
-Paradigmes : Fonctionnel et Orienté Objet
+**Base** est un langage de programmation bas niveau créé par des étudiants de l'USMB afin de développer MispiOS. Il a avant tout un but ludique.
 
-Compile vers : ASM -> Binaire (pour commencer) ; Binaire (quand le système fonctionnera)
 ### Mots Clefs
 ---
 
-|            Mot            | Utilité                                                                                                               |
-|:-------------------------:|:----------------------------------------------------------------------------------------------------------------------|
-|           `if`            | condition                                                                                                             |
-|          `else`           | non respect condition                                                                                                 |
-|         `else-if`         | condition si non respect condition précédente                                                                         |
-|          `while`          | boucle tant que                                                                                                       |
-|        `function`         | mot définition fonction                                                                                               |
-|         `public`          | accessibilité de fonction ou variable (globale) de partout                                                            |
-|         `private`         | accessibilité de fonction ou variable (globale) dans même classe uniquement                                           |
-|         `switch`          | bloc "multiconditionnel"                                                                                              |
-|          `case`           | sélecteur de cas pour le switch                                                                                       |
-|          `break`          | permet de sortir d'une boucle ou d'un switch                                                                          |
-|         `return`          | déclaration finale d'une fonction renvoyant une objet ou rien                                                         |
-|          `null`           | objet nul (sans existance)                                                                                            |
-|          `void`           | type de retour d'une fonction lorsqu'elle ne retourne rien                                                            |
-|         `(` & `)`         | ouverture et fermeture d'arguments, de conditions et de priorité                                                      |
-|         `{` & `}`         | ouverture et fermeture de bloc de code                                                                                |
-|            `=`            | assignation                                                                                                           |
-|            `+`            | addition                                                                                                              |
-|            `-`            | soustraction                                                                                                          |
-|            `*`            | multiplication                                                                                                        |
-|            `/`            | division                                                                                                              |
-|            `%`            | reste division euclidienne                                                                                            |
-|           `**`            | exposant                                                                                                              |
-|           `&&`            | et (conditionnel)                                                                                                     |
-| <code>&#124;&#124;</code> | ou (conditionnel)                                                                                                     |
-|            `!`            | non                                                                                                                   |
-|            `&`            | et (binaire)                                                                                                          |
-|    <code>&#124;</code>    | ou (binaire)                                                                                                          |
-|            `^`            | ou exclusif (binaire)                                                                                                 |
-|           `<<`            | décalage binaire vers la gauche                                                                                       |
-|           `>>`            | décalage binaire vers la droite                                                                                       |
-|           `==`            | égal (conditionnel)                                                                                                   |
-|            `<`            | inférieur (conditionnel)                                                                                              |
-|            `>`            | supérieur (conditionnel)                                                                                              |
-|           `<=`            | inférieur ou égal (conditionnel)                                                                                      |
-|           `>=`            | supérieur ou égal (conditionnel)                                                                                      |
-|           `!=`            | non égal / différent (conditionnel)                                                                                   |
-|           `!<`            | non inférieur (conditionnel)                                                                                          |
-|           `!>`            | non supérieur (conditionnel)                                                                                          |
-|            `;`            | fin d'instruction                                                                                                     |
-|           `int`           | référence au type [`Integer`](Integer.md)                                                                             |
-|          `float`          | référence au type [`Float`](Float.md)                                                                                 |
-|          `char`           | référence au type [`Char`](Char.md)                                                                                   |
-|           `//`            | début commentaire en ligne                                                                                            |
-|           `/*`            | début commentaire multi-lignes                                                                                        |
-|           `*/`            | fin commentaire multi-lignes                                                                                          |
-|         `default`         | cas par défaut du switch                                                                                              |
-|          `class`          | définition d'une classe d'objet                                                                                       |
-|        `interface`        | définition d'une interface                                                                                            |
-|        `abstract`         | mot clef qui se combine avec le `class` pour créer une classe abstraite ou devant une fonction d'une classe abstraite |
-|         `extends`         | permet d'étendre une classe (à l'aide) d'une classe abstraite                                                         |
-|       `implements`        | permet d'implémenter à une classe une seconde classe                                                                  |
-|         `import`          | importe un fichier de code pour travailler avec                                                                       |
-|            `$`            | permet de récupérer le pointeur de l'objet ou l'objet du pointeur                                                     |
+|              Mot              | Description                                                                     |
+|:-----------------------------:|:--------------------------------------------------------------------------------|
+|           `import`            | permet d'importer un autre fichier de code base                                 |
+|             `if`              | condition                                                                       |
+|            `else`             | non respect condition                                                           |
+|            `while`            | boucle tant que                                                                 |
+|            `fnct`             | définition d'une fonction                                                       |
+|            `break`            | permet de sortir d'une boucle                                                   |
+|           `return`            | déclaration finale d'une fonction renvoyant une objet ou rien                   |
+|            `null`             | pointeur vide                                                                   |
+|             `asm`             | fonction pour écrire du code en assembleur                                      |
+|     [`object`](Object.md)     | définition d'un objet                                                           |
+|   [`init`](Object.md#init)    | fonction(s) d'initialisation d'un objet                                         |
+|   [`self`](Object.md#self)    | représente l'objet dans son contenu                                             |
+| [`op==`](Object.md#operators) | surcharge de l'opérateur conditionnel `==` pour les objets (en fonction)        |
+| [`op<`](Object.md#operators)  | surcharge de l'opérateur conditionnel `<` pour les objets (en fonction)         |
+| [`op>`](Object.md#operators)  | surcharge de l'opérateur conditionnel `>` pour les objets (en fonction)         |
+| [`op<=`](Object.md#operators) | surcharge de l'opérateur conditionnel `=<` pour les objets (en fonction)        |
+| [`op>=`](Object.md#operators) | surcharge de l'opérateur conditionnel `=>` pour les objets (en fonction)        |
+| [`op+`](Object.md#operators)  | surcharge de l'opérateur `+` pour les objets (en fonction)                      |
+| [`op-`](Object.md#operators)  | surcharge de l'opérateur `-` pour les objets (en fonction)                      |
+| [`op*`](Object.md#operators)  | surcharge de l'opérateur `*` pour les objets (en fonction)                      |
+| [`op/`](Object.md#operators)  | surcharge de l'opérateur `/` pour les objets (en fonction)                      |
+| [`op%`](Object.md#operators)  | surcharge de l'opérateur `%` pour les objets (en fonction)                      |
+| [`op**`](Object.md#operators) | surcharge de l'opérateur `**` pour les objets (en fonction)                     |
+| [`op+=`](Object.md#operators) | surcharge de l'opérateur `+=` pour les objets (en fonction)                     |
+| [`op-=`](Object.md#operators) | surcharge de l'opérateur `-=` pour les objets (en fonction)                     |
+| [`op[]`](Object.md#operators) | surcharge du sélecteur d'indice d'itérable (en fonction)                        |
+|            `void`             | type de retour d'une fonction lorsqu'elle ne retourne rien                      |
+|      [`int`](Integer.md)      | référence au type [`Integer`](Integer.md)                                       |
+|      [`float`](Float.md)      | référence au type [`Float`](Float.md)                                           |
+|       [`char`](Char.md)       | référence au type [`Char`](Char.md)                                             |
+|           `(` & `)`           | ouverture et fermeture d'arguments, de conditions et de priorités arithmétiques |
+|           `{` & `}`           | ouverture et fermeture de bloc de code                                          |
+|           `[` & `]`           | ouverture et fermeture du sélecteur d'indice d'un itérable                      |
+|              `=`              | assignation                                                                     |
+|              `+`              | addition                                                                        |
+|              `-`              | soustraction                                                                    |
+|              `*`              | multiplication                                                                  |
+|              `/`              | division décimale                                                               |
+|              `%`              | reste division euclidienne                                                      |
+|             `**`              | exposant                                                                        |
+|             `+=`              | réassignation via addition                                                      |
+|             `-=`              | réassignation via soustraction                                                  |
+|             `&&`              | et (conditionnel)                                                               |
+|   <code>&#124;&#124;</code>   | ou (conditionnel)                                                               |
+|              `!`              | non                                                                             |
+|              `&`              | et (binaire)                                                                    |
+|      <code>&#124;</code>      | ou (binaire)                                                                    |
+|              `^`              | ou exclusif (binaire)                                                           |
+|             `<<`              | décalage binaire vers la gauche                                                 |
+|             `>>`              | décalage binaire vers la droite                                                 |
+|             `==`              | égal (conditionnel)                                                             |
+|              `<`              | inférieur (conditionnel)                                                        |
+|              `>`              | supérieur (conditionnel)                                                        |
+|             `<=`              | inférieur ou égal (conditionnel)                                                |
+|             `>=`              | supérieur ou égal (conditionnel)                                                |
+|             `!=`              | non égal / différent (conditionnel)                                             |
+|             `!<`              | non inférieur (conditionnel) (eq: `>=`)                                         |
+|             `!>`              | non supérieur (conditionnel) (eq: `<=`)                                         |
+|              `;`              | fin d'instruction                                                               |
+|             `//`              | début commentaire en ligne                                                      |
+|             `/*`              | début commentaire multi-lignes                                                  |
+|             `*/`              | fin commentaire multi-lignes                                                    |
+|              `$`              | récupère le pointeur d'une variable                                             |
+|              `&`              | récupère la variable d'un pointeur                                              |
 
-### Types par défaut
+### Types primaires
 ---
 
-|      Nom       | Description              |
-|:--------------:|--------------------------|
-| [](Object.md)  | Base de tous les objets  |
-| [](Integer.md) | Nombres entiers relatifs |
-|  [](Float.md)  | Nombres à virgule        |
-|  [](Char.md)   | Caractère                |
-
-### Structures par défaut
----
-|     Nom      | Description      |
-|:------------:|------------------|
-| [](Array.md) | Tableau d'objets |
+|        Nom        | Description              |
+|:-----------------:|--------------------------|
+| [int](Integer.md) | Nombres entiers relatifs |
+| [float](Float.md) | Nombres à virgule        |
+|  [char](Char.md)  | Caractères               |
 
 ### Fonctions par défaut
 ---
 
-| Expression                 | Description                           |
-|----------------------------|---------------------------------------|
-| `asm(char[] assemblyCode)` | Permet d'éxecuter du code assembleur |
+| Expression                 | Description                          |
+|----------------------------|--------------------------------------|
+| `asm(char[] assemblyCode)` | Permet d'exécuter du code assembleur |

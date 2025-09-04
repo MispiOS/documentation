@@ -9,24 +9,14 @@
     <toc-element topic="home.md"/>
     <toc-element topic="base.md">
         <toc-element topic="Object.md">
-            <toc-element topic="Array.md"/>
-            <toc-element topic="Char.md"/>
-            <toc-element topic="Float.md"/>
-            <toc-element topic="Integer.md"/>
 
         </toc-element>
 
-        <toc-element topic="Function.md"/>
+        <toc-element topic="Integer.md"/>
+        <toc-element topic="Float.md"/>
+        <toc-element topic="Char.md"/>
 
-        <toc-element topic="Conditions.md">
-            <toc-element topic="If-else.md"/>
-            <toc-element topic="While.md"/>
-            <toc-element topic="Switch.md"/>
-        </toc-element>
         <toc-element topic="Import.md"/>
-        <toc-element topic="Class.md">
-            <toc-element topic="Interface.md"/>
-        </toc-element>
     </toc-element>
     <toc-element topic="mom.md">
 
