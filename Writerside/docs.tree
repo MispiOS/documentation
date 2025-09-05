@@ -8,9 +8,7 @@
 
     <toc-element topic="home.md"/>
     <toc-element topic="base.md">
-        <toc-element topic="Object.md">
-
-        </toc-element>
+        <toc-element topic="Object.md"/>
 
         <toc-element topic="Integer.md"/>
         <toc-element topic="Float.md"/>
