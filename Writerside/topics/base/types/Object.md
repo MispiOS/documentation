@@ -2,6 +2,11 @@
 
 Le mot clef `object` permet de représenter le concept d'objet dans le langage. Un objet peut contenir des variables (attributs) et des fonctions (méthodes).
 
+#### Méthodes {id="methode"}
+---
+Les méthodes sont des fonctions accessibles à travers l'objet.
+Elles peuvent être appelées depuis l'objet ou grâce à la référence de l'objet.
+
 #### Méthode `init` {id="init"}
 ---
 La méthode `init` est la méthode appelée lors de la création de l'objet. Elle sert à initialiser les valeurs des attributs de l'objet et n'a pas de type de retour.
