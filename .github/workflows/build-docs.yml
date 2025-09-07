@@ -8,7 +8,7 @@ on:
 
 env:
   INSTANCE: 'Writerside/docs'
-  DOCKER_VERSION: '243.22562'
+  DOCKER_VERSION: '2025.04.8412'
 
 jobs:
   build:
