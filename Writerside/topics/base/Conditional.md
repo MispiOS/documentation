@@ -9,6 +9,9 @@ Les conditions sont en réalité des entiers. Si l'entier est `0` alors la condi
 Bien qu'en réalité des entiers, les conditions peuvent s'exprimer à l'aide d'opérateurs conditionnels (`==` [égal], `<` [inférieur à], `>` [supérieur à], `<=` [inférieur ou égal à], `>=` [supérieur ou égal]),
 de connecteurs logiques (`&&` [et], `||` [ou]) et de la négation (`!` [non]).
 
+> Les opérateurs conditionnels et les connecteurs logiques nécessitent deux membres pour effectuer une opération.
+{style="note"}
+
 La négation se fait sur l'intégralité des conditions et non pas sur les opérateurs conditionnels.
 Exemple : `!(1 == 2)`
 

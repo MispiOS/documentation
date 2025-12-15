@@ -8,15 +8,19 @@
 
     <toc-element topic="home.md"/>
     <toc-element topic="base.md">
-        <toc-element topic="Object.md"/>
-
         <toc-element topic="Integer.md"/>
         <toc-element topic="Float.md"/>
         <toc-element topic="Char.md"/>
 
+        <toc-element topic="Operator.md"/>
+        <toc-element topic="BitOperator.md"/>
+
         <toc-element topic="Conditional.md"/>
 
         <toc-element topic="Function.md"/>
+
+        <toc-element topic="Object.md"/>
+
 
         <toc-element topic="Import.md"/>
     </toc-element>

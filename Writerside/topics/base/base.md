@@ -5,6 +5,8 @@
 **Base** est un langage de programmation bas niveau créé par des étudiants de l'USMB (Université Savoie Mont-Blanc) afin de développer MispiOS.
 Il a avant tout un but ludique.
 
+Tout le code de **Base** se trouve dans des [fonctions](Function.md) ou des [objets](Object.md).
+
 ### Mots Clefs
 ---
 
@@ -46,20 +48,24 @@ Il a avant tout un but ludique.
 |                   `[` & `]`                    | ouverture et fermeture du sélecteur d'indice d'un itérable                                             |
 |                      `"`                       | ouverture et fermeture pour un caractère alphanumérique (`char`) ou une chaîne de caractère (`char[]`) |
 |                      `'`                       | ouverture et fermeture pour un caractère alphanumérique (`char`)                                       |
-|                      `=`                       | assignation                                                                                            |
-|                      `+`                       | addition                                                                                               |
-|                      `-`                       | soustraction                                                                                           |
-|                      `*`                       | multiplication                                                                                         |
-|                      `/`                       | division décimale                                                                                      |
-|                      `%`                       | reste division euclidienne                                                                             |
-|                      `**`                      | exposant                                                                                               |
-|                      `+=`                      | réassignation via addition                                                                             |
-|                      `-=`                      | réassignation via soustraction                                                                         |
-|                      `&`                       | et (binaire)                                                                                           |
-|              <code>&#124;</code>               | ou (binaire)                                                                                           |
-|                      `^`                       | ou exclusif (binaire)                                                                                  |
-|                      `<<`                      | décalage binaire vers la gauche                                                                        |
-|                      `>>`                      | décalage binaire vers la droite                                                                        |
+|            [`=`](Operator.md#asign)            | assignation                                                                                            |
+|           [`+`](Operator.md#arithm)            | addition                                                                                               |
+|           [`-`](Operator.md#arithm)            | soustraction                                                                                           |
+|           [`*`](Operator.md#arithm)            | multiplication                                                                                         |
+|           [`/`](Operator.md#arithm)            | division                                                                                               |
+|           [`%`](Operator.md#arithm)            | reste de la division euclidienne / modulo                                                              |
+|           [`**`](Operator.md#arithm)           | exposant                                                                                               |
+|        [`+=`](Operator.md#arithm-asign)        | réassignation via addition                                                                             |
+|        [`-=`](Operator.md#arithm-asign)        | réassignation via soustraction                                                                         |
+|        [`*=`](Operator.md#arithm-asign)        | réassignation via multiplication                                                                       |
+|        [`/=`](Operator.md#arithm-asign)        | réassignation via division                                                                             |
+|        [`%=`](Operator.md#arithm-asign)        | réassignation via modulo                                                                               |
+|       [`**=`](Operator.md#arithm-asign)        | réassignation via exposant                                                                             |
+|             [`&`](BitOperator.md)              | et (binaire)                                                                                           |
+|     [<code>&#124;</code>](BitOperator.md)      | ou (binaire)                                                                                           |
+|             [`^`](BitOperator.md)              | ou exclusif (binaire)                                                                                  |
+|             [`<<`](BitOperator.md)             | décalage binaire vers la gauche                                                                        |
+|             [`>>`](BitOperator.md)             | décalage binaire vers la droite                                                                        |
 |           [`&&`](Conditional.md#op)            | et (conditionnel)                                                                                      |
 | [<code>&#124;&#124;</code>](Conditional.md#op) | ou (conditionnel)                                                                                      |
 |            [`!`](Conditional.md#op)            | non (conditionnel)                                                                                     |

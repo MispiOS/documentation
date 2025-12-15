@@ -1,6 +1,6 @@
 # Fonction
 
-Les fonctions sont des blocks de code pouvant être appelé n'importe où dans le code (sauf pour les [méthodes](types/Object.md#methode)).
+Les fonctions sont des blocks de code pouvant être appelé n'importe où dans le code (sauf pour les [méthodes](Object.md#methode)).
 Elles ont pour but d'éviter les répétitions et de structurer le code.
 
 #### Arguments {id="args"}

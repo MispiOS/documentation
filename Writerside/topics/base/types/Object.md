@@ -1,6 +1,7 @@
-# object
+# Object
 
-Le mot clef `object` permet de représenter le concept d'objet dans le langage. Un objet peut contenir des variables (attributs) et des fonctions (méthodes).
+Le mot clef `object` permet de représenter le concept d'objet dans le langage.
+Un objet peut contenir des variables (attributs) et des fonctions (méthodes).
 
 #### Méthodes {id="methode"}
 ---

@@ -10,3 +10,6 @@ et
 ```base
 char a = 'B';
 ```
+
+> Il est possible d'utiliser la notation hexadécimale (`0xXX`) pour représenter ces nombres
+{style="note"}
